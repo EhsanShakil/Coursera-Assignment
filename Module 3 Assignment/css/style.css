@@ -1,0 +1,28 @@
+.navbar {
+	background-color: grey;
+}
+h2 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.container {
+	background-color: lightgrey;
+}
+h3 {
+	text-align: center;
+}
+@media (min-width: 992px) {
+    .nav-link {
+      visibility: hidden;
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav-link {
+      visibility: hidden;
+    }
+  }
+
+.nav-link {
+    text-align: center;
+}
